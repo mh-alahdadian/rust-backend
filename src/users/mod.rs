@@ -1,3 +1,5 @@
+mod structs;
+
 #[get("/login")]
 pub fn login() -> String {
     "Hello, world!".to_string()
